@@ -1,0 +1,136 @@
+/* Estilo general para la aplicación */
+QMainWindow {
+    background-color: #f0f4f8;  /* Fondo gris claro para toda la ventana */
+}
+
+/* Estilo para los widgets principales */
+QWidget {
+    background-color: #ffffff;  /* Fondo blanco para los widgets */
+    color: #333333;  /* Texto oscuro */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para las etiquetas (QLabel) */
+QLabel {
+    color: #003366;  /* Azul oscuro para las etiquetas */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Estilo para los botones (QPushButton) */
+QPushButton {
+    background-color: #007acc;  /* Azul profesional */
+    color: #ffffff;  /* Texto blanco */
+    border: 1px solid #005fa3;  /* Borde azul más oscuro */
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+QPushButton:hover {
+    background-color: #005fa3;  /* Azul más oscuro en hover */
+}
+
+/* Estilo para las cajas de texto (QLineEdit) */
+QLineEdit {
+    background-color: #e6f1f9;  /* Fondo azul claro */
+    border: 1px solid #007acc;  /* Borde azul */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Estilo para los combo boxes (QComboBox) */
+QComboBox {
+    background-color: #e6f1f9;
+    border: 1px solid #007acc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Estilo para los layouts */
+QVBoxLayout, QHBoxLayout {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Estilo para el contenedor principal */
+QWidget#blocks_widget {
+    border: 1px solid #003366;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Estilo para las grillas (QTableWidget) */
+QTableWidget {
+    background-color: #ffffff;  /* Fondo blanco para la grilla */
+    border: 1px solid #cccccc;  /* Borde suave alrededor de la grilla */
+}
+
+QTableWidget::item {
+    background-color: #ffffff;  /* Fondo blanco para las celdas */
+    color: #333333;  /* Texto oscuro */
+    border: 1px solid #e0e0e0;  /* Borde suave de las celdas */
+    padding: 5px;
+}
+
+/* Estilo para las filas alternadas */
+QTableWidget:alternate {
+    background-color: #f9f9f9;  /* Color de fondo alternado para filas */
+}
+
+QTableWidget QHeaderView::section {
+    background-color: #007acc;  /* Fondo azul profesional */
+    color: #ffffff;  /* Texto blanco para los encabezados */
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #005fa3;  /* Borde azul más oscuro */
+}
+
+/* Estilo para la selección activa de las filas */
+QTableWidget::item:selected:focus {
+    border: 1px solid #007acc;  /* Borde azul alrededor de la selección */
+}
+
+QTableWidget::horizontalHeader {
+    background-color: #f0f4f8;
+    font-weight: bold;
+    color: #003366;
+}
+
+/* Estilo para las filas seleccionadas */
+QTableWidget::item:selected {
+    background-color: #007acc;  /* Fondo azul claro al seleccionar */
+    color: #ffffff;  /* Texto blanco */
+}
+
+/* Estilo para los botones de movimiento */
+QPushButton#move_left_button,
+QPushButton#move_right_button,
+QPushButton#move_all_left_button,
+QPushButton#move_all_right_button {
+    background-color: #f0f4f8;
+    color: #003366;
+    border: 1px solid #003366;
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+
+QPushButton#move_left_button:hover,
+QPushButton#move_right_button:hover,
+QPushButton#move_all_left_button:hover,
+QPushButton#move_all_right_button:hover {
+    background-color: #e6f1f9;
+}
+
+/* Estilo para el botón de exportar */
+QPushButton#export_button {
+    background-color: #007acc;
+    color: #ffffff;
+    border: 1px solid #005fa3;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+QPushButton#export_button:hover {
+    background-color: #005fa3;
+}

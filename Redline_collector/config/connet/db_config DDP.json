@@ -1,0 +1,8 @@
+{
+  "user": "REDV10_QBI000",
+  "password": "REDV10_QBI000",
+  "host": "192.168.20.42",
+  "port": "1521",
+  "service_name": "DDP.DDP.NET",
+  "tipo": "ORACLE"
+}

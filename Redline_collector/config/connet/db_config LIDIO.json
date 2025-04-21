@@ -1,0 +1,8 @@
+{
+  "user": "REDV23_VLD001",
+  "password": "REDV23__vld001",
+  "host": "11.1.2.124",
+  "port": "1521",
+  "service_name": "PDBPROD.PRIVATESUBNETDB.VCNPROD.ORACLEVCN.COM",
+  "tipo": "ORACLE"
+}
