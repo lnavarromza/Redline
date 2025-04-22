@@ -2,7 +2,7 @@
   "connections": {
     "Lidio Carraro old": {
       "user": "REDV23_VLD001",
-      "password": "REDV23__vld001",
+      "password": "ddddddddd",
       "host": "11.1.2.124",
       "port": "1521",
       "service_name": "PDBPROD.PRIVATESUBNETDB.VCNPROD.ORACLEVCN.COM",
@@ -10,7 +10,7 @@
     },
     "LC Prod": {
       "user": "REDV23_EMP001",
-      "password": "REDV23__emp001",
+      "password": "dddddd",
       "host": "192.168.0.239",
       "port": "1521",
       "service_name": "XEPDB1",
@@ -26,7 +26,7 @@
     },    
     "DDP BI": {
       "user": "REDV10_QBI000",
-      "password": "REDV10_QBI000",
+      "password": "ddddddd",
       "host": "192.168.20.42",
       "port": "1521",
       "service_name": "DDP.DDP.NET",
@@ -34,7 +34,7 @@
     },
     "DDP Prod": {
       "user": "REDV10_EMP001",
-      "password": "REDV10_EMP001",
+      "password": "ddddddd",
       "host": "192.168.20.42",
       "port": "1521",
       "service_name": "DDP.DDP.NET",
